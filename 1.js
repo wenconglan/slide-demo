@@ -16,7 +16,6 @@ setInterval(()=>{
   $(` #images > img:nth-child(${setCycleNumber(n+1)})`).removeClass('rightStatus').addClass('middleStatus')
   n +=1
 },3000)
-if
 
 
 
