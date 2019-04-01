@@ -1,21 +1,37 @@
-
 <!DOCTYPE html>
 <html lang="zh-Hans">
 <head>
   <meta charset="UTF-8">
   <title>无缝轮播</title>
-  <link rel="stylesheet" href="./1.css">
+  <link rel="stylesheet" href="./2.css">
 </head>
 <body>
-  <div class="window">
-    <div id="images" class="images">
-      <img src="./img/macbook.jpg" alt="图片" width="920" >
-      <img src="./img/iphone.jpg" alt="图片" width="920" >
-      <img src="./img/imac.jpg" alt="图片" width="920" >
-      <img src="./img/info.jpg" alt="图片" width="920" >
-    </div>
+  <div class="wrapper">
+      <div class="window">
+          <div id="images" class="images">
+            <img src="./img/macbook.jpg" alt="图片" width="920" height="400" >
+            <img src="./img/iphone.jpg" alt="图片" width="920" height="400" >
+            <img src="./img/imac.jpg" alt="图片" width="920" height="400" >
+            <img src="./img/info.jpg" alt="图片" width="920" height="400" >
+          </div>
+        </div>
+        <div class="controlsbutton">
+          <svg id="lastPicture" class="icon" aria-hidden="true">
+              <use xlink:href="#icon-last">上一个</use>
+          </svg>
+          <svg id="nextPicture" class="icon" aria-hidden="true">
+              <use xlink:href="#icon-Next">下一个</use>
+          </svg>
+        </div>
+        <div id="buttonContainer" class="buttonContainer">
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>4</button>
+        </div>
   </div>
+  <script src="//at.alicdn.com/t/font_1120093_yqh8kvqzefq.js"></script>
   <script src="./jquery-3.3.1.js"></script>
-  <script src="./1.js"></script>
+  <script src="./2.js"></script>
 </body>
 </html>

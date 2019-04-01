@@ -1,0 +1,48 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.window{
+  width: 922px;
+  height: 400px;
+  margin: 20px auto;
+  overflow: hidden;
+  border: 1px solid #E1E1E1;
+  box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.35);
+  position: relative;
+}
+.images{
+  display: flex;
+  transition: all 1s;
+}
+.images > img{
+  width: 100%;
+}
+
+.buttonContainer{
+  text-align: center;
+}
+.controlsbutton{
+  width:100px;
+  margin: 0 auto;
+}
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+#lastPicture{
+  position: fixed;
+  top: 200px;
+  left: 500px;
+  font-size: 30px;
+}
+#nextPicture{
+  position: fixed;
+    top: 200px;
+    left: 1392px;
+    font-size: 30px;
+}
